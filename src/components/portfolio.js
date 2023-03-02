@@ -1,8 +1,7 @@
-import './App.css';
-import portfolioPage from './components/portfolio';
 
-function App() {
-  return (
+
+function portfolioPage() {
+    return (
     <body>
     <header>
         <div class="photo shrink">
@@ -75,7 +74,7 @@ function App() {
 
     </main>
 </body>
-  );
+    );
 }
 
-export default App;
+export default portfolioPage;
